@@ -20,11 +20,12 @@ h2 {
     font-weight: 500;
 }
 
-a {
+ul.overview  li {
+    display: inline-block;
     width: auto;
-    display: block;
+}
+a {
     padding: 1em;
-    margin: 0.5em;
     border: 2px solid rgb(255, 214, 214);
     background-color: white;
 }
