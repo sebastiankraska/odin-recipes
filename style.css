@@ -1,6 +1,22 @@
 * {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    text-align: center;
+    line-height: 160%;
+    background-color: rgb(248, 242, 234);
+}
+
+h1,
+h2,
+p,
+ul,
+ol {
+    width: 500px;
+}
+
+h1,
+h2 {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-style: italic;
+    font-weight: 500;
 }
 
 a {
@@ -8,6 +24,6 @@ a {
     display: block;
     padding: 1em;
     margin: 0.5em;
-    border: 1px solid black;
-    /* text-align: center; */
+    border: 2px solid rgb(255, 214, 214);
+    background-color: white;
 }
